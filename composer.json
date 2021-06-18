@@ -1,0 +1,21 @@
+{
+  "name": "joem/simple-session",
+  "description": "Manage session information with a simple interface",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Joe",
+      "email": "joe45moses@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SimpleSession\\": "src/"
+    },
+    "files": [
+      "src/session.php"
+    ]
+  },
+  "require": {}
+}
